@@ -130,6 +130,7 @@ push it to an image registry, such as [quay.io](https://quay.io/).
 NOTE: If you have a Mac with Apple silicon, you will need to add the flag
 `--platform=linux/amd64` when building the image to target the correct platform
 to run in-cluster.
+
 NOTE: If you are using quay.io, you'll need login before pushing your image using the following command `docker login quay.io`. You'll then be prompted to enter your quay.io username and password. 
 
 ## Deployment on cluster
